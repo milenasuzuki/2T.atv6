@@ -52,3 +52,20 @@
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
+
+.lista-menu__titulo, .lista-menu__lista{
+    padding: 1em;
+    background-color:#FFFFFF;
+}
+
+.lista-menu__titulo{
+    color:#FFA500
+}
+
+.lista-menu__link{
+    background: #054F77;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
